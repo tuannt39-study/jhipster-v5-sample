@@ -1,0 +1,35 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "vn.sapo"
+    },
+    "jhipsterVersion": "5.8.2",
+    "applicationType": "monolith",
+    "baseName": "jdemo2",
+    "packageName": "vn.sapo",
+    "packageFolder": "vn/sapo",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZjhlMmZhN2VhZjdkMTExNmYzMzc0ZjZjYjZiMzljOWQ5Yzg2ZmNkOTc4ZTBhYTkxMzA2ZDc3MmYyNmY5YzJmNzAxMTJlNWYyYjU1MWJlOWY2M2Y5MmYzNzk2MTAwMDE2ZmRmZTE5NzUzMjg1MjA0ZmRjYTJiYzFkNGY2Yzk4OTc=",
+    "clientFramework": "react",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false
+  }
+}
