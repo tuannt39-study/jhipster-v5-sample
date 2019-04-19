@@ -16,7 +16,7 @@ module.exports = webpackMerge(commonConfig({ env: ENV }), {
   // devtool: 'source-map', // Enable source maps. Please note that this will slow down the build
   mode: ENV,
   entry: {
-    main: './src/main/webapp/app/index'
+    main: './webapp/app/index'
   },
   output: {
     path: utils.root('target/www'),

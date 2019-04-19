@@ -17,7 +17,7 @@ module.exports = (options) => webpackMerge(commonConfig({ env: ENV }), {
   mode: ENV,
   entry: [
     'react-hot-loader/patch',
-    './src/main/webapp/app/index'
+    './webapp/app/index'
   ],
   output: {
     path: utils.root('target/www'),
